@@ -10,4 +10,11 @@ class Mammal extends Animal{
   }
 }
 
+class Something{
+  static sayHello(){
+    console.log("Hello from a static class")
+  }
+}
+
 new Mammal()
+Something.sayHello()

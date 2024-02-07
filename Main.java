@@ -14,8 +14,15 @@ class Main{
     new Main();
   }
 
+  static class Something{
+    static void sayHello(){
+      System.out.println("Hello from a static class");
+    }
+  }
+
   Main(){
     new Mammal();
+    Something.sayHello();
   }
 }
 
